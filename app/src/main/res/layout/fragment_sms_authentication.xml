@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sms_authentication_fragment_fragment_main_container_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside">
+
+    <!--sms authentication layout-->
+    <RelativeLayout
+        android:id="@+id/sms_authentication_fragment_sms_authentication_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/sms_authentication_fragment_sms_authentication_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/sms_authentication_fragment_sms_authentication_text_view_margin_top"
+            android:layout_marginBottom="@dimen/sms_authentication_fragment_sms_authentication_text_view_margin_bottom"
+            android:layout_alignParentTop="true"/>
+
+        <RelativeLayout
+            android:id="@+id/sms_authentication_fragment_sms_authentication_code_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/sms_authentication_fragment_sms_authentication_code_layout_margin_top"
+            android:layout_marginBottom="@dimen/sms_authentication_fragment_sms_authentication_code_layout_margin_bottom"
+            android:layout_below="@+id/sms_authentication_fragment_sms_authentication_text_view">
+
+            <com.bob.uimodule.views.textviews.MyEditText
+                android:id="@+id/sms_authentication_fragment_sms_authentication_first_code_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="RtlHardcoded"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/sms_authentication_fragment_sms_authentication_first_code_edit_text_margin_start"
+                android:layout_marginEnd="@dimen/sms_authentication_fragment_sms_authentication_first_code_edit_text_margin_end"/>
+
+            <com.bob.uimodule.views.textviews.MyEditText
+                android:id="@+id/sms_authentication_fragment_sms_authentication_second_code_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="RtlHardcoded"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loading_activity_sms_authentication_code_number_margin"
+                android:layout_marginStart="@dimen/sms_authentication_fragment_sms_authentication_second_code_edit_text_margin_start"
+                android:layout_marginEnd="@dimen/sms_authentication_fragment_sms_authentication_second_code_edit_text_margin_end"/>
+
+            <com.bob.uimodule.views.textviews.MyEditText
+                android:id="@+id/sms_authentication_fragment_sms_authentication_third_code_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="RtlHardcoded"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loading_activity_sms_authentication_code_number_margin"
+                android:layout_marginStart="@dimen/sms_authentication_fragment_sms_authentication_third_code_edit_text_margin_start"
+                android:layout_marginEnd="@dimen/sms_authentication_fragment_sms_authentication_third_code_edit_text_margin_end"/>
+
+            <com.bob.uimodule.views.textviews.MyEditText
+                android:id="@+id/sms_authentication_fragment_sms_authentication_fourth_code_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="RtlHardcoded"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loading_activity_sms_authentication_code_number_margin"
+                android:layout_marginStart="@dimen/sms_authentication_fragment_sms_authentication_fourth_code_edit_text_margin_start"
+                android:layout_marginEnd="@dimen/sms_authentication_fragment_sms_authentication_fourth_code_edit_text_margin_end"/>
+
+        </RelativeLayout>
+
+
+        <com.bob.uimodule.views.textviews.MyButton
+            android:id="@+id/sms_authentication_fragment_sms_authentication_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/sms_authentication_fragment_sms_authentication_button_margin_top"
+            android:layout_marginBottom="@dimen/sms_authentication_fragment_sms_authentication_button_margin_bottom"
+            android:layout_below="@+id/sms_authentication_fragment_sms_authentication_code_layout"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

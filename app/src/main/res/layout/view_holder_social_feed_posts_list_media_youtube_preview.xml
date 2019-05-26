@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/social_feed_posts_list_media_youtube_view_holder_player_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/social_feed_posts_list_media_youtube_view_holder_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:resize_mode="fit"
+        app:surface_type="texture_view"
+        app:showFullScreenButton="false"
+        app:showYouTubeButton="false"
+        app:showSeekBar="false"
+        app:showVideoDuration="false"
+        app:showVideoCurrentTime="false"
+        app:useWebUi="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

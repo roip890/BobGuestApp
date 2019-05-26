@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/email_authentication_fragment_main_container_frame_layout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:scaleType="centerInside">
+
+    <!--email authentication layout-->
+    <RelativeLayout
+        android:id="@+id/email_authentication_fragment_email_authentication_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/email_authentication_fragment_email_authentication_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/email_authentication_fragment_email_authentication_text_view_margin_top"
+            android:layout_marginBottom="@dimen/email_authentication_fragment_email_authentication_text_view_margin_bottom"
+            android:layout_alignParentTop="true"/>
+
+        <com.bob.uimodule.views.textviews.MyButton
+            android:id="@+id/email_authentication_fragment_email_authentication_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/email_authentication_fragment_email_authentication_button_margin_top"
+            android:layout_marginBottom="@dimen/email_authentication_fragment_email_authentication_button_margin_bottom"
+            android:layout_below="@+id/email_authentication_fragment_email_authentication_text_view"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

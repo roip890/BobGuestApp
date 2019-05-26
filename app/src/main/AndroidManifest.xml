@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bob.bobguestapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".BOBGuestApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_bob"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_bob_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.intro.IntroActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.main.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".activities.codes.GuestCodesActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".activities.qrscanner.QRScannerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.bob.uimodule.maps.MapsActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.bob.uimodule.video.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.bob.uimodule.video.FullScreenVideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.bob.uimodule.image.ImageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppThemeDialogNoTitle" />
+
+        <activity android:name=".activities.main.fragments.social.socialfeed.SocialFeedActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+
+        <activity android:name=".activities.main.fragments.social.postpage.PostPageActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+
+
+        <activity android:name=".activities.main.fragments.social.likespage.LikesListPageActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+
+        </activity>
+
+        <activity android:name=".activities.main.fragments.social.postupload.media.PostMediaActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity android:name=".activities.main.fragments.social.postupload.content.PostContentActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+
+
+
+        <service android:name=".services.NotificationsService"
+            android:enabled="true" />
+
+        <service android:name=".services.FirebaseNotificationsService"
+            android:enabled="true" >
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+
+        </service>
+
+        <receiver android:name=".activities.main.fragments.notifications.NotificationsBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".services.NotificationsServiceRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <provider
+            android:name=".tools.files.MyFileProvider"
+            android:authorities="${applicationId}.com.bob.bobguestapp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+    </application>
+
+</manifest>

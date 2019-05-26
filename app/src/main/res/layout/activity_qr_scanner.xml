@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/qr_scanner_activity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--barcode view-->
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/qr_scanner_activity_zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/qr_scanner_activity_background"
+        app:zxing_scanner_layout="@layout/layout_custom_barcode_scanner"/>
+
+    <!--footer view-->
+    <RelativeLayout
+        android:id="@+id/qr_scanner_activity_footer_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/qr_activity_scanner_buttons_layout_margin"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/qr_scanner_activity_footer_camera_facing_button"
+            android:layout_width="@dimen/qr_activity_scanner_buttons_width"
+            android:layout_height="@dimen/qr_activity_scanner_buttons_height"
+            android:layout_margin="@dimen/qr_activity_scanner_buttons_margin"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/qr_scanner_activity_footer_flashlight_button"/>
+
+        <ImageView
+            android:id="@+id/qr_scanner_activity_footer_flashlight_button"
+            android:layout_width="@dimen/qr_activity_scanner_buttons_width"
+            android:layout_height="@dimen/qr_activity_scanner_buttons_height"
+            android:layout_margin="@dimen/qr_activity_scanner_buttons_margin"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/qr_scanner_activity_footer_preview_image_view"/>
+
+        <ImageView
+            android:id="@+id/qr_scanner_activity_footer_preview_image_view"
+            android:layout_width="@dimen/qr_activity_scanner_buttons_image_width"
+            android:layout_height="@dimen/qr_activity_scanner_buttons_image_height"
+            android:layout_margin="@dimen/qr_activity_scanner_buttons_image_margin"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/qr_scanner_activity_footer_resume_button"
+            android:layout_width="@dimen/qr_activity_scanner_buttons_width"
+            android:layout_height="@dimen/qr_activity_scanner_buttons_height"
+            android:layout_margin="@dimen/qr_activity_scanner_buttons_margin"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/qr_scanner_activity_footer_preview_image_view"/>
+
+        <ImageView
+            android:id="@+id/qr_scanner_activity_footer_pause_button"
+            android:layout_width="@dimen/qr_activity_scanner_buttons_width"
+            android:layout_height="@dimen/qr_activity_scanner_buttons_height"
+            android:layout_margin="@dimen/qr_activity_scanner_buttons_margin"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/qr_scanner_activity_footer_resume_button"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/choose_from_gallery_image_preview_view_holder_cropper_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_collapseMode="none">
+
+    <com.bob.uimodule.image.cropper.CropperView
+        android:id="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="12dp"
+        android:background="@color/light_primary_color"
+        app:layout_constraintDimensionRatio="W,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:padding_color="@color/transparent"
+        app:grid_color="@color/primary_color"
+        app:grid_opacity="0.5"
+        app:grid_thickness="0.8dp"/>
+
+    <ImageButton
+        android:id="@+id/choose_from_gallery_image_preview_view_holder_cropper_rotate_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintStart_toStartOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_rotate_right_white_24dp"/>
+
+    <ImageButton
+        android:id="@+id/choose_from_gallery_image_preview_view_holder_cropper_snap_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_crop_free_white_24dp"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageButton
+        android:id="@+id/choose_from_gallery_image_preview_view_holder_cropper_delete_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        app:layout_constraintTop_toTopOf="@+id/choose_from_gallery_image_preview_view_holder_cropper_view"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_close_white_24dp"
+        tools:ignore="RelativeOverlap,VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

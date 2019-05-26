@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--check in activity-->
+    <integer name="check_in_activity_progress_progress_bar_reached_round_x">@integer/default_progress_progress_bar_reached_round_x</integer>
+    <integer name="check_in_activity_progress_progress_bar_reached_round_y">@integer/default_progress_progress_bar_reached_round_y</integer>
+    <integer name="check_in_activity_progress_progress_bar_unreached_round_x">@integer/default_progress_progress_bar_unreached_round_x</integer>
+    <integer name="check_in_activity_progress_progress_bar_unreached_round_y">@integer/default_progress_progress_bar_unreached_round_y</integer>
+    <integer name="check_in_activity_progress_progress_bar_progress_max">@integer/default_progress_progress_bar_progress_max</integer>
+    <integer name="check_in_activity_progress_progress_bar_progress_current">@integer/default_progress_progress_bar_progress_current</integer>
+
+    <!--loading activity-->
+    <integer name="loading_activity_progress_progress_bar_reached_round_x">@integer/default_progress_progress_bar_reached_round_x</integer>
+    <integer name="loading_activity_progress_progress_bar_reached_round_y">@integer/default_progress_progress_bar_reached_round_y</integer>
+    <integer name="loading_activity_progress_progress_bar_unreached_round_x">@integer/default_progress_progress_bar_unreached_round_x</integer>
+    <integer name="loading_activity_progress_progress_bar_unreached_round_y">@integer/default_progress_progress_bar_unreached_round_y</integer>
+    <integer name="loading_activity_progress_progress_bar_progress_max">@integer/default_progress_progress_bar_progress_max</integer>
+    <integer name="loading_activity_progress_progress_bar_progress_current">@integer/default_progress_progress_bar_progress_current</integer>
+
+    <!--loading activity-->
+    <integer name="default_loading_fragment_progress_progress_bar_reached_round_x">@integer/default_progress_progress_bar_reached_round_x</integer>
+    <integer name="default_loading_fragment_progress_progress_bar_reached_round_y">@integer/default_progress_progress_bar_reached_round_y</integer>
+    <integer name="default_loading_fragment_progress_progress_bar_unreached_round_x">@integer/default_progress_progress_bar_unreached_round_x</integer>
+    <integer name="default_loading_fragment_progress_progress_bar_unreached_round_y">@integer/default_progress_progress_bar_unreached_round_y</integer>
+    <integer name="default_loading_fragment_progress_progress_bar_progress_max">@integer/default_progress_progress_bar_progress_max</integer>
+    <integer name="default_loading_fragment_progress_progress_bar_progress_current">@integer/default_progress_progress_bar_progress_current</integer>
+
+
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--basics-->
+    <color name="transparent">#00000000</color>
+    <color name="colorAccent">@color/secondary_color</color>
+    <color name="colorPrimary">@color/primary_color</color>
+    <color name="colorPrimaryDark">@color/primary_color</color>
+    <color name="colorPrimaryLight">@color/secondary_color</color>
+
+    <!--status colors-->
+    <color name="waiting_status_color">#e03b24</color>
+    <color name="in_progress_status_color">#ffcc00</color>
+    <color name="done_status_color">#64a338</color>
+    <color name="secondary_status_color">#3865a3</color>
+    <color name="primary_status_color">#87a2c7</color>
+
+</resources>

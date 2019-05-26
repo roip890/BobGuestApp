@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "715297662238",
+    "firebase_url": "https://bobguestapp.firebaseio.com",
+    "project_id": "bobguestapp",
+    "storage_bucket": "bobguestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715297662238:android:e215040d86182377",
+        "android_client_info": {
+          "package_name": "com.bob.bobguestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715297662238-s0gnm6ve2o9bk2df9cfreb150k9n7n6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bob.bobguestapp",
+            "certificate_hash": "867da59e1c71f2642f20261d183b4496905963d2"
+          }
+        },
+        {
+          "client_id": "715297662238-k2vnc4vo90cca4liqaqo1a6efakkbq3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7NMBvv5XlDUa-73vcGtMczNpxKOMZaZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715297662238-k2vnc4vo90cca4liqaqo1a6efakkbq3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

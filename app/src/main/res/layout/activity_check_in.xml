@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/check_in_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/check_in_activity_check_in_container_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <FrameLayout
+            android:id="@+id/check_in_activity_check_in_container_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside">
+
+            <!--qr check in layout-->
+            <LinearLayout
+                android:id="@+id/qr_check_in_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/qr_check_in_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/check_in_activity_qr_title_bottom_margin">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/qr_check_in_info_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/check_in_activity_qr_info_margin">
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/qr_check_in_code_buttons_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <com.bob.uimodule.views.textviews.MyButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/qr_check_in_code_scan_button"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/check_in_activity_qr_buttons_margin"/>
+
+                    <com.bob.uimodule.views.textviews.MyButton
+                        android:id="@+id/qr_check_in_code_text_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/check_in_activity_qr_buttons_margin"/>
+
+                    <com.bob.uimodule.views.textviews.MyButton
+                        android:id="@+id/qr_check_in_code_upload_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/check_in_activity_qr_buttons_margin"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/qr_check_in_code_image_view"
+                    android:layout_width="@dimen/check_in_activity_qr_code_image_width"
+                    android:layout_height="@dimen/check_in_activity_qr_code_image_height"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:layout_margin="@dimen/check_in_activity_qr_code_image_margin"/>
+
+                <LinearLayout
+                    android:id="@+id/qr_check_in_code_text_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/qr_check_in_code_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/check_in_activity_qr_code_title_margin">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/qr_check_in_code_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/check_in_activity_qr_code_text_margin">
+                    </TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/qr_check_in_error_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/check_in_activity_qr_error_text_view_margin"/>
+
+                <com.bob.uimodule.views.textviews.MyButton
+                    android:id="@+id/qr_check_in_check_in_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/check_in_activity_qr_button_margin"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/check_in_activity_management_container_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <FrameLayout
+            android:id="@+id/check_in_activity_management_container_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside">
+
+            <!--loading layout-->
+            <LinearLayout
+                android:id="@+id/loading_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/loading_image_view"
+                    android:layout_width="@dimen/check_in_activity_loading_image_view_width"
+                    android:layout_height="@dimen/check_in_activity_loading_image_view_height"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <!--message layout-->
+            <LinearLayout
+                android:id="@+id/message_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/message_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/message_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--default-->
+
+    <dimen name="default_progress_bar_image_view_height">48dp</dimen>
+    <dimen name="default_progress_bar_image_view_width">48dp</dimen>
+    <dimen name="default_loading_image_view_height">48dp</dimen>
+    <dimen name="default_loading_image_view_width">48dp</dimen>
+    <dimen name="default_message_icon_image_view_height">48dp</dimen>
+    <dimen name="default_message_icon_image_view_width">48dp</dimen>
+    <dimen name="default_field_margin_top">2dp</dimen>
+    <dimen name="default_field_margin_bottom">2dp</dimen>
+
+
+
+    <!--login fragment-->
+    <dimen name="login_fragment_login_hotel_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="login_fragment_login_hotel_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="login_fragment_login_email_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="login_fragment_login_email_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="login_fragment_login_password_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="login_fragment_login_password_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="login_fragment_login_error_text_view_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="login_fragment_login_error_text_view_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="login_fragment_login_sign_in_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="login_fragment_login_sign_in_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="login_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="login_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="login_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="login_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="login_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="login_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="login_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="login_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--register fragment-->
+    <dimen name="register_fragment_register_username_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_username_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_email_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_email_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_password_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_password_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_confirm_password_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_confirm_password_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_hotel_name_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_hotel_name_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_full_name_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_full_name_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_phone_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_phone_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_error_text_view_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_error_text_view_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_register_sign_up_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="register_fragment_register_sign_up_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="register_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="register_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="register_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="register_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="register_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="register_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="register_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="register_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--authentication fragment-->
+    <dimen name="authentication_fragment_sms_authentication_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="authentication_fragment_sms_authentication_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_before_width">50dp</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_before_height">3dp</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_after_line_width">50dp</dimen>
+    <dimen name="authentication_fragment_authentication_buttons_intermediate_after_line_height">3dp</dimen>
+    <dimen name="authentication_fragment_email_authentication_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="authentication_fragment_email_authentication_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="authentication_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="authentication_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="authentication_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="authentication_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="authentication_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="authentication_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="authentication_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="authentication_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--email authentication fragment-->
+    <dimen name="email_authentication_fragment_email_authentication_text_view_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="email_authentication_fragment_email_authentication_text_view_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="email_authentication_fragment_email_authentication_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="email_authentication_fragment_email_authentication_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="email_authentication_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="email_authentication_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="email_authentication_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="email_authentication_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="email_authentication_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="email_authentication_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="email_authentication_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="email_authentication_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--sms authentication fragment-->
+    <dimen name="sms_authentication_fragment_sms_authentication_text_view_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_text_view_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_code_layout_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_code_layout_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_first_code_edit_text_margin_start">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_first_code_edit_text_margin_end">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_second_code_edit_text_margin_start">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_second_code_edit_text_margin_end">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_third_code_edit_text_margin_start">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_third_code_edit_text_margin_end">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_fourth_code_edit_text_margin_start">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_fourth_code_edit_text_margin_end">10dp</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="sms_authentication_fragment_sms_authentication_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="sms_authentication_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="sms_authentication_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="sms_authentication_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="sms_authentication_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="sms_authentication_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="sms_authentication_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="sms_authentication_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="sms_authentication_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--reset password fragment-->
+    <dimen name="reset_password_fragment_reset_password_text_view_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="reset_password_fragment_reset_password_text_view_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="reset_password_fragment_reset_password_email_edit_text_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="reset_password_fragment_reset_password_email_edit_text_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="reset_password_fragment_reset_password_button_margin_top">@dimen/default_field_margin_top</dimen>
+    <dimen name="reset_password_fragment_reset_password_button_margin_bottom">@dimen/default_field_margin_bottom</dimen>
+    <dimen name="reset_password_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="reset_password_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="reset_password_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="reset_password_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="reset_password_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="reset_password_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="reset_password_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="reset_password_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--profile fragment-->
+    <dimen name="profile_fragment_profile_change_status_button_margin_left">12dp</dimen>
+    <dimen name="profile_fragment_profile_change_status_button_margin_top">12dp</dimen>
+    <dimen name="profile_fragment_profile_picture_layout_width">158dp</dimen>
+    <dimen name="profile_fragment_profile_picture_layout_height">158dp</dimen>
+    <dimen name="profile_fragment_profile_picture_layout_margin_top">12dp</dimen>
+    <dimen name="profile_fragment_profile_picture_layout_margin_bottom">12dp</dimen>
+    <dimen name="profile_fragment_profile_picture_frame_width">138dp</dimen>
+    <dimen name="profile_fragment_profile_picture_frame_height">138dp</dimen>
+    <dimen name="profile_fragment_profile_picture_view_width">128dp</dimen>
+    <dimen name="profile_fragment_profile_picture_view_height">128dp</dimen>
+    <dimen name="profile_fragment_profile_picture_status_view_width">24dp</dimen>
+    <dimen name="profile_fragment_profile_picture_status_view_height">24dp</dimen>
+    <dimen name="profile_fragment_profile_picture_status_view_margin_right">20dp</dimen>
+    <dimen name="profile_fragment_profile_picture_status_view_margin_top">20dp</dimen>
+    <dimen name="profile_fragment_profile_change_picture_button_margin_left">12dp</dimen>
+    <dimen name="profile_fragment_profile_change_picture_button_margin_bottom">12dp</dimen>
+    <dimen name="profile_fragment_profile_title_view_margin_bottom">12dp</dimen>
+    <dimen name="profile_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="profile_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="profile_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="profile_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="profile_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="profile_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="profile_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="profile_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--menu fragment-->
+    <dimen name="menu_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="menu_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="menu_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="menu_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="menu_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="menu_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="menu_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="menu_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--requests fragment-->
+    <dimen name="requests_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="requests_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="requests_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="requests_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="requests_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="requests_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="requests_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="requests_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+
+    <!--request view holder-->
+    <dimen name="request_view_holder_circle_progress_timer_bar_width">5dp</dimen>
+    <dimen name="request_view_holder_circle_progress_timer_rim_width">5dp</dimen>
+
+    <!--request details dialog-->
+    <dimen name="request_details_dialog_status_view_width">24dp</dimen>
+    <dimen name="request_details_dialog_status_view_height">24dp</dimen>
+    <dimen name="request_details_dialog_status_text_view_margin">12dp</dimen>
+    <dimen name="request_details_dialog_status_view_margin">12dp</dimen>
+
+
+
+    <!--default loading fragment-->
+    <dimen name="default_loading_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="default_loading_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="default_loading_fragment_loading_image_view_margin_top">4dp</dimen>
+    <dimen name="default_loading_fragment_loading_image_view_margin_bottom">4dp</dimen>
+    <dimen name="default_loading_fragment_message_icon_layout_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="default_loading_fragment_message_icon_layout_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="default_loading_fragment_message_image_view_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="default_loading_fragment_message_image_view_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="default_loading_fragment_message_animation_width">@dimen/default_message_icon_image_view_width</dimen>
+    <dimen name="default_loading_fragment_message_animation_height">@dimen/default_message_icon_image_view_height</dimen>
+    <dimen name="default_loading_fragment_message_icon_layout_margin_top">4dp</dimen>
+    <dimen name="default_loading_fragment_message_icon_layout_margin_bottom">4dp</dimen>
+    <dimen name="default_loading_fragment_message_text_view_margin_top">4dp</dimen>
+    <dimen name="default_loading_fragment_message_text_view_margin_bottom">4dp</dimen>
+    <dimen name="default_loading_fragment_progress_image_view_width">100dp</dimen>
+    <dimen name="default_loading_fragment_progress_image_view_height">100dp</dimen>
+    <dimen name="default_loading_fragment_progress_bar_width">@dimen/default_progress_image_view_width</dimen>
+    <dimen name="default_loading_fragment_progress_bar_height">@dimen/default_progress_image_view_height</dimen>
+    <dimen name="default_loading_fragment_progress_progress_bar_reached_height">@dimen/default_progress_progress_bar_reached_height</dimen>
+    <dimen name="default_loading_fragment_progress_progress_bar_unreached_height">@dimen/default_progress_progress_bar_unreached_height</dimen>
+    <dimen name="default_loading_fragment_progress_progress_bar_progress_text_size">@dimen/default_progress_progress_bar_progress_text_size</dimen>
+    <dimen name="default_loading_fragment_progress_progress_bar_progress_text_offset">@dimen/default_progress_progress_bar_progress_text_offset</dimen>
+    <dimen name="default_loading_fragment_progress_icon_layout_margin_top">4dp</dimen>
+    <dimen name="default_loading_fragment_progress_icon_layout_margin_bottom">4dp</dimen>
+    <dimen name="default_loading_fragment_progress_bar_margin_top">4dp</dimen>
+    <dimen name="default_loading_fragment_progress_bar_margin_bottom">4dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--check in activity-->
+    <dimen name="check_in_activity_title_bottom_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="check_in_activity_hotel_edit_text_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_error_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="check_in_activity_qr_title_bottom_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="check_in_activity_qr_info_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_qr_buttons_margin">@dimen/default_horizontal_buttons_margin</dimen>
+    <dimen name="check_in_activity_qr_code_image_margin">30dp</dimen>
+    <dimen name="check_in_activity_qr_code_image_width">256dp</dimen>
+    <dimen name="check_in_activity_qr_code_image_height">256dp</dimen>
+    <dimen name="check_in_activity_qr_code_title_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_qr_code_text_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_qr_error_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="check_in_activity_qr_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="check_in_activity_progress_image_view_height">@dimen/default_progress_image_view_height</dimen>
+    <dimen name="check_in_activity_progress_image_view_width">@dimen/default_progress_image_view_width</dimen>
+    <dimen name="check_in_activity_progress_image_view_margin">@dimen/default_progress_image_view_margin</dimen>
+    <dimen name="check_in_activity_progress_progress_bar_reached_height">@dimen/default_progress_progress_bar_reached_height</dimen>
+    <dimen name="check_in_activity_progress_progress_bar_unreached_height">@dimen/default_progress_progress_bar_unreached_height</dimen>
+    <dimen name="check_in_activity_progress_progress_bar_progress_text_size">@dimen/default_progress_progress_bar_progress_text_size</dimen>
+    <dimen name="check_in_activity_progress_progress_bar_progress_text_offset">@dimen/default_progress_progress_bar_progress_text_offset</dimen>
+    <dimen name="check_in_activity_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="check_in_activity_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="check_in_activity_type_guest_code_dialog_positive_button_width">100dp</dimen>
+    <dimen name="check_in_activity_type_guest_code_dialog_positive_button_text_size">6sp</dimen>
+    <dimen name="check_in_activity_type_guest_code_dialog_negative_button_width">100dp</dimen>
+    <dimen name="check_in_activity_type_guest_code_dialog_negative_button_text_size">6sp</dimen>
+    <dimen name="check_in_activity_message_toast_width">250dp</dimen>
+    <dimen name="check_in_activity_message_toast_image_width">48dp</dimen>
+    <dimen name="check_in_activity_message_toast_image_height">48dp</dimen>
+
+    <!--qr activity -->
+    <dimen name="qr_activity_scanner_code_text_view_margin">5dp</dimen>
+    <dimen name="qr_activity_scanner_code_buttons_layout_margin">5dp</dimen>
+    <dimen name="qr_activity_scanner_code_buttons_width">24dp</dimen>
+    <dimen name="qr_activity_scanner_code_buttons_height">24dp</dimen>
+    <dimen name="qr_activity_scanner_code_buttons_margin">@dimen/default_horizontal_buttons_margin</dimen>
+    <dimen name="qr_activity_scanner_buttons_layout_margin">5dp</dimen>
+    <dimen name="qr_activity_scanner_buttons_width">24dp</dimen>
+    <dimen name="qr_activity_scanner_buttons_height">24dp</dimen>
+    <dimen name="qr_activity_scanner_buttons_margin">@dimen/default_horizontal_buttons_margin</dimen>
+    <dimen name="qr_activity_scanner_buttons_image_width">64dp</dimen>
+    <dimen name="qr_activity_scanner_buttons_image_height">64dp</dimen>
+    <dimen name="qr_activity_scanner_buttons_image_margin">@dimen/default_horizontal_buttons_margin</dimen>
+
+    <!--loading activity-->
+    <dimen name="loading_activity_login_title_bottom_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="loading_activity_login_hotel_edit_text_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_login_email_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_login_password_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_login_error_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_login_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="loading_activity_login_sign_up_message_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_login_sign_up_link_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_title_bottom_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="loading_activity_register_username_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_password_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_hotel_name_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_full_name_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_phone_field_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_error_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="loading_activity_register_sign_in_message_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_register_sign_in_link_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_title_bottom_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_first_info_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_second_info_margin">@dimen/default_title_bottom_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_code_number_margin">10dp</dimen>
+    <dimen name="loading_activity_sms_authentication_error_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_message_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_sign_in_link_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_sms_authentication_resend_link_text_view_margin">@dimen/default_field_margin</dimen>
+    <dimen name="loading_activity_progress_image_view_height">@dimen/default_progress_image_view_height</dimen>
+    <dimen name="loading_activity_progress_image_view_width">@dimen/default_progress_image_view_width</dimen>
+    <dimen name="loading_activity_progress_image_view_margin">@dimen/default_progress_image_view_margin</dimen>
+    <dimen name="loading_activity_progress_progress_bar_reached_height">@dimen/default_progress_progress_bar_reached_height</dimen>
+    <dimen name="loading_activity_progress_progress_bar_unreached_height">@dimen/default_progress_progress_bar_unreached_height</dimen>
+    <dimen name="loading_activity_progress_progress_bar_progress_text_size">@dimen/default_progress_progress_bar_progress_text_size</dimen>
+    <dimen name="loading_activity_progress_progress_bar_progress_text_offset">@dimen/default_progress_progress_bar_progress_text_offset</dimen>
+    <dimen name="loading_activity_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="loading_activity_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--menu fragment-->
+    <dimen name="menu_fragment_form_submit_button_margin">@dimen/default_button_margin</dimen>
+    <dimen name="menu_fragment_message_button_width">75dp</dimen>
+    <dimen name="menu_fragment_menu_top_padding">5dp</dimen>
+    <dimen name="menu_fragment_menu_bottom_padding">5dp</dimen>
+    <dimen name="menu_fragment_menu_start_padding">5dp</dimen>
+    <dimen name="menu_fragment_menu_end_padding">5dp</dimen>
+
+    <!--requests list fragment-->
+    <dimen name="requests_list_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="requests_list_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+    <dimen name="requests_list_fragment_sort_requests_dialog_width">200dp</dimen>
+    <dimen name="requests_list_fragment_filter_requests_dialog_width">300dp</dimen>
+
+    <!--requests list item layout-->
+    <dimen name="request_list_item_icon_background_padding">5dp</dimen>
+    <dimen name="request_list_item_icon_container_margin">5dp</dimen>
+    <dimen name="request_list_item_icon_margin">5dp</dimen>
+    <dimen name="request_list_item_icon_width">48dp</dimen>
+    <dimen name="request_list_item_icon_height">48dp</dimen>
+    <dimen name="request_list_item_content_container_margin">5dp</dimen>
+    <dimen name="request_list_item_content_container_end_padding">68dp</dimen>
+    <dimen name="request_list_item_title_margin">2dp</dimen>
+    <dimen name="request_list_item_title_text_size">@dimen/text_size_large</dimen>
+    <dimen name="request_list_item_content_margin">2dp</dimen>
+    <dimen name="request_list_item_content_text_size">@dimen/text_size_large</dimen>
+    <dimen name="request_list_item_timestamp_margin">2dp</dimen>
+    <dimen name="request_list_item_timestamp_text_size">@dimen/text_size_medium</dimen>
+    <dimen name="request_list_item_indicators_container_margin">5dp</dimen>
+    <dimen name="request_list_item_status_icon_margin">5dp</dimen>
+    <dimen name="request_list_item_status_icon_width">24dp</dimen>
+    <dimen name="request_list_item_status_icon_height">24dp</dimen>
+    <dimen name="request_list_item_details_icon_margin">5dp</dimen>
+    <dimen name="request_list_item_details_icon_width">24dp</dimen>
+    <dimen name="request_list_item_details_icon_height">24dp</dimen>
+    <dimen name="requests_list_item_show_request_dialog_width">300dp</dimen>
+
+    <!--notifications list fragment-->
+    <dimen name="notifications_list_fragment_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="notifications_list_fragment_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+
+    <!--notifications list item layout-->
+    <dimen name="notification_list_item_icon_background_padding">5dp</dimen>
+    <dimen name="notification_list_item_icon_container_margin">5dp</dimen>
+    <dimen name="notification_list_item_icon_margin">5dp</dimen>
+    <dimen name="notification_list_item_icon_width">48dp</dimen>
+    <dimen name="notification_list_item_icon_height">48dp</dimen>
+    <dimen name="notification_list_item_content_container_margin">5dp</dimen>
+    <dimen name="notification_list_item_content_container_end_padding">68dp</dimen>
+    <dimen name="notification_list_item_title_margin">2dp</dimen>
+    <dimen name="notification_list_item_title_text_size">@dimen/text_size_large</dimen>
+    <dimen name="notification_list_item_content_margin">2dp</dimen>
+    <dimen name="notification_list_item_content_text_size">@dimen/text_size_large</dimen>
+    <dimen name="notification_list_item_timestamp_margin">2dp</dimen>
+    <dimen name="notification_list_item_timestamp_text_size">@dimen/text_size_medium</dimen>
+    <dimen name="notification_list_item_indicators_container_margin">5dp</dimen>
+    <dimen name="notification_list_item_details_icon_margin">5dp</dimen>
+    <dimen name="notification_list_item_details_icon_width">24dp</dimen>
+    <dimen name="notification_list_item_details_icon_height">24dp</dimen>
+
+    <!--guest codes list fragment-->
+    <dimen name="guest_codes_activity_loading_image_view_width">@dimen/default_loading_image_view_width</dimen>
+    <dimen name="guest_codes_activity_loading_image_view_height">@dimen/default_loading_image_view_height</dimen>
+
+    <!--guest codes list item layout-->
+    <dimen name="guest_code_list_item_icon_background_padding">5dp</dimen>
+    <dimen name="guest_code_list_item_icon_container_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_icon_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_icon_width">48dp</dimen>
+    <dimen name="guest_code_list_item_icon_height">48dp</dimen>
+    <dimen name="guest_code_list_item_content_container_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_content_container_end_padding">68dp</dimen>
+    <dimen name="guest_code_list_item_title_margin">2dp</dimen>
+    <dimen name="guest_code_list_item_title_text_size">@dimen/text_size_large</dimen>
+    <dimen name="guest_code_list_item_content_margin">2dp</dimen>
+    <dimen name="guest_code_list_item_content_text_size">@dimen/text_size_large</dimen>
+    <dimen name="guest_code_list_item_indicators_container_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_status_icon_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_status_icon_width">24dp</dimen>
+    <dimen name="guest_code_list_item_status_icon_height">24dp</dimen>
+    <dimen name="guest_code_list_item_details_icon_margin">5dp</dimen>
+    <dimen name="guest_code_list_item_details_icon_width">24dp</dimen>
+    <dimen name="guest_code_list_item_details_icon_height">24dp</dimen>
+    <dimen name="guest_code_list_item_show_guest_code_dialog_qr_code_image_width">256dp</dimen>
+    <dimen name="guest_code_list_item_show_guest_code_dialog_qr_code_image_height">256dp</dimen>
+    <dimen name="guest_code_list_item_show_guest_code_dialog_width">300dp</dimen>
+
+    <!--guest codes list popup layout-->
+    <dimen name="guest_code_list_popup_title_text_size">@dimen/text_size_large</dimen>
+    <dimen name="guest_code_list_popup_code_text_size">@dimen/text_size_large</dimen>
+
+    <!--load more progress-->
+    <dimen name="load_more_progress_container_margin">5dp</dimen>
+    <dimen name="load_more_progress_icon_width">24dp</dimen>
+    <dimen name="load_more_progress_icon_height">24dp</dimen>
+    <dimen name="load_more_progress_icon_margin">2dp</dimen>
+    <dimen name="load_more_progress_text_size">@dimen/text_size_medium</dimen>
+    <dimen name="load_more_progress_text_margin">2dp</dimen>
+
+
+
+
+
+</resources>

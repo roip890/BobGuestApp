@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/qr_scanner_code_dialog_main_container_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside">
+
+    <!--code layout-->
+    <RelativeLayout
+        android:id="@+id/qr_scanner_code_dialog_code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/qr_activity_scanner_buttons_layout_margin"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/qr_scanner_code_dialog_code_image_view"
+            android:layout_width="@dimen/check_in_activity_qr_code_image_width"
+            android:layout_height="@dimen/check_in_activity_qr_code_image_height"
+            android:layout_margin="@dimen/check_in_activity_qr_code_image_margin"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <RelativeLayout
+            android:id="@+id/qr_scanner_code_dialog_code_text_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/qr_scanner_code_dialog_code_image_view">
+
+            <TextView
+                android:id="@+id/qr_scanner_code_dialog_code_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/check_in_activity_qr_code_title_margin"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true">
+            </TextView>
+
+            <TextView
+                android:id="@+id/qr_scanner_code_dialog_code_code_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/check_in_activity_qr_code_text_margin"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/qr_scanner_code_dialog_code_title_text_view">
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qr_scanner_code_dialog_code_buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/qr_activity_scanner_code_buttons_layout_margin"
+            android:orientation="horizontal"
+            android:layout_below="@+id/qr_scanner_code_dialog_code_text_layout">
+
+            <ImageView
+                android:id="@+id/qr_scanner_code_dialog_code_confirm_button"
+                android:layout_width="@dimen/qr_activity_scanner_code_buttons_width"
+                android:layout_height="@dimen/qr_activity_scanner_code_buttons_height"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/qr_activity_scanner_code_buttons_margin" />
+
+            <ImageView
+                android:id="@+id/qr_scanner_code_dialog_code_cancel_button"
+                android:layout_width="@dimen/qr_activity_scanner_code_buttons_width"
+                android:layout_height="@dimen/qr_activity_scanner_code_buttons_height"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/qr_activity_scanner_code_buttons_margin"
+                android:layout_toEndOf="@+id/qr_scanner_code_dialog_code_confirm_button" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

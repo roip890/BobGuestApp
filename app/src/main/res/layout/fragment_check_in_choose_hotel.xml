@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/requests_fragment_main_container_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside">
+
+    <!--authentication layout-->
+    <RelativeLayout
+        android:id="@+id/check_in_choose_hotel_fragment_authentication_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <com.bob.uimodule.views.textviews.MyAutoCompleteEditText
+            android:id="@+id/check_in_choose_hotel_fragment_hotel_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/check_in_activity_hotel_edit_text_margin">
+        </com.bob.uimodule.views.textviews.MyAutoCompleteEditText>
+
+        <TextView
+            android:id="@+id/check_in_choose_hotel_fragment_error_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/check_in_activity_error_text_view_margin"/>
+
+        <com.bob.uimodule.views.textviews.MyButton
+            android:id="@+id/check_in_choose_hotel_fragment_qr_check_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/check_in_activity_button_margin"/>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

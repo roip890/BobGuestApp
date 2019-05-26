@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Dialog">
+    </style>
+
+    <style name="AppThemeDialogNoTitle" parent="AppThemeDialog">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="MyProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+        <attr format="dimension" name="progress_text_offset"/>
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+        <attr format="integer" name="progress_reached_round_x"/>
+        <attr format="integer" name="progress_reached_round_y"/>
+        <attr format="integer" name="progress_unreached_round_x"/>
+        <attr format="integer" name="progress_unreached_round_y"/>
+    </declare-styleable>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
